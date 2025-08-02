@@ -111,19 +111,8 @@ body {
 }
 
 .logo-icon {
-  width: 2.5rem;
-  height: 2.5rem;
-  background: linear-gradient(135deg, var(--primary-blue), var(--dark-blue));
-  border-radius: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.logo-letter {
-  color: var(--white);
-  font-weight: bold;
-  font-size: 1.125rem;
+  width: 3.8rem;
+  height: 2.9rem;
 }
 
 .company-name {

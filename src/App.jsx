@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Sun, Moon, Code, Palette, Users, ArrowRight, CheckCircle } from 'lucide-react';
 import './index.css';
 
+
 const HomePage = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -73,7 +74,7 @@ const HomePage = () => {
             {/* Logo */}
             <div className="logo-section">
               <div className="logo-icon">
-                <span className="logo-letter">D</span>
+                <img src="./logo.png" alt="devora" className='logo-icon' />
               </div>
               <div className="logo-text">
                 <h1 className="company-name">DEVORA</h1>
