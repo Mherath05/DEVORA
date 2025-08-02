@@ -819,13 +819,8 @@ body {
 }
 
 .footer-logo-icon {
-  width: 2rem;
-  height: 2rem;
-  background: linear-gradient(135deg, var(--primary-blue), var(--dark-blue));
-  border-radius: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 3.4rem;
+  height: 2.6rem;
 }
 
 .footer-logo-letter {

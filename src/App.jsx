@@ -249,7 +249,7 @@ const HomePage = () => {
           <div className="footer-content">
             <div className="footer-logo">
               <div className="footer-logo-icon">
-                <span className="footer-logo-letter">D</span>
+               <img src="./logo.png" alt="devora" className='logo-icon' />
               </div>
               <div className="footer-logo-text">
                 <h3 className="footer-company-name">DEVORA</h3>
