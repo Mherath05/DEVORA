@@ -243,6 +243,54 @@ const HomePage = () => {
         </div>
       </section>
 
+      {/*contact section*/}
+      <section className='contact-section'>
+            <div className='contact-container'>
+              <div className='contact-card'>
+                <div className='left-side'>
+                  <h2 className='contact-title'>Contact Us</h2>
+                  <p className='contact-desc'>
+                      Ready to bring your next project to Reality? Tell us about it,
+                      and our experts will reach out with solutions in just a few hours.
+                      Let’s build something great together!
+                  </p>
+                  <div className='contact-list'>
+                    <ul ><Phone className='icon'/>&nbsp;&nbsp;Call Us</ul>
+                    <text className='contact-det'>xxx xxx xxxx</text>
+                    <br/>
+                    <ul><Mail className='icon'/>&nbsp;&nbsp;E-mail</ul>
+                    <text className='contact-det'>xxx xxx xxxx</text>
+                    <br/>
+                    <ul ><Clock className='icon'/>&nbsp;&nbsp;Working-Hours<br/></ul>
+                    <text className='contact-det'>xxx xxx xxxx</text>
+                    <br/>
+                  </div>
+                  </div>
+                    <div className='right-side'>
+                      <form>
+                          <label className='label' htmlFor='name' required>Name</label>
+                          <input type='text' placeholder='Enter your Name' name='name' className='contact-inputs' required/>
+                          <label className='label' htmlFor='email' required>E-mail Address</label>
+                          <input type='text' placeholder='Enter your E-mail Address' name='email' className='contact-inputs' required/>
+                          <label className='label' htmlFor='company/bs'>Company / Business Name</label>
+                          <input type='text' placeholder='Your Company or Business' name='company/bs' className='contact-inputs'/>
+                          <label className='label' htmlFor='area'>Area</label>
+                          <select name='area' required>
+                            <option value="sd">Software Development</option>
+                            <option value="ad">App Development</option>
+                            <option value="cb">Chat Bot</option>
+                            <option value="ai">AI automation</option>
+                            <option value="gd">Graphic Designing</option>
+                          </select>
+                          <label className='label' htmlFor='project' required>Project Brief</label>
+                          <textarea cols="50" rows="10" placeholder='Brief about your next project' name='project' className='contact-inputs'/>
+                          <button type='submit' className='btn-primary'>Submit</button>
+                      </form>
+                </div>
+              </div>
+            </div>
+      </section>
+
       {/* Footer */}
       <footer className="footer">
         <div className="footer-container">
