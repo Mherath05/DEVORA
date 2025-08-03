@@ -763,6 +763,168 @@ body {
   filter: blur(3rem);
 }
 
+/*Contact*/
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-card {
+  display: flex;
+  background-color: #bfdbfe;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.homepage.light .contact-card {
+  background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+}
+
+.homepage.dark .contact-card {
+  background: linear-gradient(135deg, var(--gray-800), var(--gray-900));
+}
+
+.left-side {
+  flex: 1;
+  padding: 2rem;
+}
+
+.right-side {
+  flex: 1;
+  padding: 2rem;
+}
+
+.contact-title {
+  margin-bottom: 1rem;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.contact-desc {
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  font-size: 1.25rem;
+}
+
+.contact-list {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  padding-bottom: 2rem;
+}
+
+.contact-list ul {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.contact-det {
+  margin-left: 2rem;
+}
+
+.icon {
+  margin-right: 0.5rem;
+  color: var(--primary-blue);
+}
+
+.label {
+  display: block;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.contact-inputs {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+
+textarea.contact-inputs {
+  min-height: 150px;
+  resize: vertical;
+  border-radius: 1rem;
+}
+
+select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  background: white;
+}
+
+.btn-primary {
+  margin-top: 1rem;
+}
+
+/* Tablet styles (768px - 1024px) */
+@media (max-width: 1024px) {
+  .contact-card {
+    flex-direction: column;
+  }
+  
+  .left-side, .right-side {
+    padding: 1.5rem;
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+  }
+  
+  textarea.contact-inputs{
+    min-height: 120px;
+  }
+}
+
+/* Mobile styles (up to 767px) */
+@media (max-width: 767px) {
+  .contact-container {
+    
+  }
+  
+  .left-side, .right-side {
+    padding: 1rem;
+  }
+  
+  .contact-title {
+    font-size: 1.5rem;
+  }
+  
+  .contact-desc {
+    font-size: 0.9rem;
+  }
+  
+  .contact-list ul {
+    font-size: 0.9rem;
+  }
+  
+  .contact-det {
+    font-size: 0.9rem;
+    margin-left: 1.5rem;
+  }
+  
+  .label, .contact-inputs, select, .btn-primary {
+    font-size: 0.9rem;
+  }
+  
+  textarea.contact-inputs {
+    min-height: 100px;
+  }
+  
+  .btn-primary {
+    width: 40%;
+    justify-content: center;
+  }
+}
+
 /* Footer */
 .footer {
   padding: 3rem 0;
