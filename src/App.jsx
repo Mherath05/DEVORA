@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Sun, Moon, Code, Palette, Users, ArrowRight, CheckCircle } from 'lucide-react';
+import { Menu, X, Sun, Moon, Code, Palette, Users, ArrowRight, CheckCircle, Phone, Mail, Clock} from 'lucide-react';
+
 import './index.css';
 
 
